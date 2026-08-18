@@ -18,7 +18,7 @@ jobs:
       - name: PyInstaller installieren & bauen
         run: |
           pip install pyinstaller
-          pyinstaller --onefile file_sort.py
+          pyinstaller --onefile filesorting.py
 
       - name: Binary hochladen
         uses: actions/upload-artifact@v4
